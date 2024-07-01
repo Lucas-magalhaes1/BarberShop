@@ -40,3 +40,14 @@ operacional e a satisfação dos clientes. Com uma interface amigável e funcion
 integradas, o sistema se destacou como uma ferramenta essencial para o setor, facilitando a
 interação e comunicação entre clientes e barbeiros, resultando em uma operação mais fluida e
 organizada.
+
+### Documentação do Projeto
+
+- [Diagrama de Classes](Diagrama%20de%20Classes.png)
+- [História de Usuário](História%20de%20Usuário.jpg)
+- [Matriz de Rastreabilidade de Requisitos](Matriz%20de%20Rastreabilidade%20de%20Requisitos.md)
+- [README](README.md)
+- [Regras de Negócio](Regras%20de%20Negócio.md)
+- [Sistema de Gerenciamento de Barbearia](Sistema_de_Gerenciamento_de_Barbearia.pdf)
+- [UML Barbearia](UML%20Barbearia.png)
+- [Documentação da API](documentation.md)
