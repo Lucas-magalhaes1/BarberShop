@@ -50,3 +50,4 @@ organizada.
 - [Regras de Negócio](Regras%20de%20Negócio.md)
 - [Sistema de Gerenciamento de Barbearia](Sistema_de_Gerenciamento_de_Barbearia.pdf)
 - [UML Barbearia](UML%20Barbearia.png)
+- [Documentação da API](documentation.md)
