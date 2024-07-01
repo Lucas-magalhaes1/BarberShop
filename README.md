@@ -51,3 +51,61 @@ organizada.
 - [Sistema de Gerenciamento de Barbearia](Sistema_de_Gerenciamento_de_Barbearia.pdf)
 - [UML Barbearia](UML%20Barbearia.png)
 - [Documentação da API](documentation.md)
+- [WireFrame do Projeto](/imagens)
+
+## Iniciar o projeto
+Frontend (React)
+
+    Instalação de Dependências:
+    Abra o terminal na pasta do seu projeto frontend e execute o comando para instalar as dependências usando npm ou yarn, conforme sua preferência:
+
+    bash
+
+# Com npm
+npm install
+
+# Ou com yarn
+yarn
+
+Inicialização do Projeto:
+Após a instalação das dependências, inicie o servidor de desenvolvimento usando npm ou yarn:
+
+bash
+
+    # Com npm
+    npm run dev
+
+    # Ou com yarn
+    yarn dev
+
+    Certifique-se de que seu projeto React está configurado corretamente para iniciar com o comando npm run dev ou yarn dev. Verifique o arquivo package.json na seção scripts para garantir que o comando dev está configurado para iniciar seu servidor de desenvolvimento React.
+
+Backend (Node.js com Express)
+
+    Instalação de Dependências:
+    No terminal, navegue até a pasta do seu projeto backend (onde server.js está localizado) e execute o comando para instalar as dependências:
+
+    bash
+
+# Com npm
+npm install
+
+# Ou com yarn
+yarn
+
+Inicialização do Servidor:
+Após a instalação das dependências, inicie o servidor Node.js usando o seguinte comando:
+
+bash
+
+    node server.js
+
+    Certifique-se de que seu arquivo server.js está configurado corretamente para iniciar o servidor Express. Isso inclui a configuração de portas, conexões com bancos de dados (se necessário), e outras configurações específicas do seu aplicativo.
+
+Observações Adicionais:
+
+    Portas e Configurações: Verifique se não há conflitos de portas entre o frontend e o backend. O frontend geralmente roda na porta 3000 por padrão, enquanto o backend pode usar a porta 5000 ou outra porta de sua escolha.
+
+    Scripts Personalizados: Personalize os scripts no package.json conforme necessário para atender às suas necessidades específicas de desenvolvimento, como scripts para build, testes e ambiente de produção.
+
+    Gerenciadores de Pacotes: Escolha entre npm e yarn com base na sua preferência, mas mantenha a consistência para evitar problemas de compatibilidade e gerenciamento de dependências.
