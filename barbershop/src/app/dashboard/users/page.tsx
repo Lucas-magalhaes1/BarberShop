@@ -8,7 +8,7 @@ import { useRouter } from "next/navigation";
 interface UserFormInput {
   email: string;
   password: string;
-  phoneNumber: string;
+  number: string;
 }
 
 const EditUser: React.FC = () => {
@@ -28,7 +28,7 @@ const EditUser: React.FC = () => {
         // Popula o formulário com as informações do usuário
         setValue('email', userData.user.email);
         setValue('password', userData.user.password);
-        setValue('phoneNumber', userData.user.number.toString());
+        setValue('number', userData.user.number.toString());
       } catch (err) {
         console.error('Erro ao buscar dados do usuário:', err);
       }
@@ -106,9 +106,9 @@ const EditUser: React.FC = () => {
           <TextField
             fullWidth
             margin="normal"
-            {...register('phoneNumber', { required: 'Número de telefone é obrigatório', })}
-            error={!!errors.phoneNumber}
-            helperText={errors.phoneNumber ? errors.phoneNumber.message : ''}
+            {...register('number', { required: 'Número de telefone é obrigatório', })}
+            error={!!errors.number}
+            helperText={errors.number ? errors.number.message : ''}
           />
 
           <Button type="submit" variant="contained" color="primary" sx={{ mt: 2 }}>
